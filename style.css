@@ -1,10 +1,14 @@
-body{
-    background-color: red;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-
+.header-part{
+    background-color: rgb(58, 49, 49);;
+}
 .container{
     width: 1200px;
     margin: auto;
+    padding: 20px;
 }
 .header-top {
     display: flex;
@@ -12,17 +16,36 @@ body{
 }
 
 .logo img {
-    width: 150px;
+    width: 120px;
+}
+.logo{
+    display: flex;
 }
 
 .nav {
     display: flex;
+    align-items: center;
+}
+
+.active{
+    background-color: darkblue;
 }
 .nav li{
     list-style: none;
     font-size: 18px;
     text-transform: uppercase;
-    color: burlywood;
-    padding: 0px 20px;
+    color: white;
+    padding: 15px;
     cursor: pointer;
+}
+
+.nav li:hover{
+    background-color: darkblue;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -moz-transition: 01s;
+    -ms-transition: 01s;
+    -o-transition: 01s;
 }
