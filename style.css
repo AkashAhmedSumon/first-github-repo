@@ -1,0 +1,28 @@
+body{
+    background-color: red;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav {
+    display: flex;
+}
+.nav li{
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: burlywood;
+    padding: 0px 20px;
+    cursor: pointer;
+}
